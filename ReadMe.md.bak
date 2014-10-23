@@ -3,7 +3,6 @@ the dataset of http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition
 in a tidy dataset (tidyData.txt).
 
 This repo contains the files:
-
 	- run_analysis.R:
 		- the script for transforming the source data to tidyData.txt
 		- source: 
