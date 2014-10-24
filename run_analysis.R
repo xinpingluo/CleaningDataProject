@@ -61,4 +61,4 @@ data_dense_dec_melt <- melt (data_dense_dec, id = c("subject", "activity"), meas
 
 #apply the mean function based on the a subject + activity grouping
 tidyData <- dcast(data_dense_dec_melt, subject + activity  ~ variable, mean)
-write.table(tidyData, file="tidyData.txt")
+write.table(tidyData, file="tidyData.txt", row.name = FALSE)
